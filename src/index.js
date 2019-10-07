@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './components/App/App';
+import Header from'./components/Header/Header';
 import * as serviceWorker from './serviceWorker';
+import MucTieuNgheNghiep from './components/MucTieuNgheNhiep/MucTieuNgheNhiep';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Header /> ,<MucTieuNgheNghiep />,document.getElementById('root'));
+// ReactDOM.render(<MucTieuNgheNghiep />, document.getElementById('root1'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
