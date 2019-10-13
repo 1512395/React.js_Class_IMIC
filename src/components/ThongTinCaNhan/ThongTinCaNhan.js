@@ -10,8 +10,8 @@ class ThongTinCaNhan extends Component {
               <div className="col-sm-8">
                 <div className="col-sm-12" style={{borderRight: '1px solid #ccc'}}>
                   <ul className="list-group text-danger" >
-                      <li className="list-group-item"><i className="fa fa-address-card" aria-hidden="true" /><span className="float-left"><h1>{noidung.Mock.ThongTinCaNhan.ten}</h1></span></li>
-                      <li className="list-group-item"><i className="fa fa-address-book" aria-hidden="true" />{noidung.Mock.ThongTinCaNhan.gioitinh}</li>
+                      <li className="list-group-item">{noidung.Mock.ThongTinCaNhan.ten}</li>
+                      <li className="list-group-item">{noidung.Mock.ThongTinCaNhan.gioitinh}</li>
                       <li className="list-group-item">{noidung.Mock.ThongTinCaNhan.ngaysinh}</li>
                       <li className="list-group-item">{noidung.Mock.ThongTinCaNhan.diachi}</li>
                       <li className="list-group-item">{noidung.Mock.ThongTinCaNhan.email}</li>
